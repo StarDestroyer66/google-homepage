@@ -1,0 +1,141 @@
+
+.page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    text-align: right;
+    word-spacing: 5px;
+    top: 0;
+    right: 0;
+}
+
+.right-align {
+    float: right;
+}
+
+/**list items**/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+/**Sign in button**/
+.sign {
+    background-color: #4285f4;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 5px;
+    width: 15px;
+}
+
+/**Google logo**/
+.google {
+    display: block;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**searchbar**/
+#searchbar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/**Search and feeling lucky buttons**/
+#search {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid grey;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbutton {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 5px;
+    width: 130px;
+    height: 40px;
+    color: rgb(106, 106, 107);
+    font-size: 10pt;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.searchbutton:hover {
+    color: black;
+    border: solid rgb(206, 206, 207);
+}
+
+/**Google offered in**/
+.languages {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.languages a {
+    color: blue;
+}
+
+/**Footer**/
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 0.5pt;
+    border-style: ridge;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-color: rgb(236,235,235);
+}
+
+.footer-left {
+    float: left;
+    padding-left: 20px;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 20px;
+}
